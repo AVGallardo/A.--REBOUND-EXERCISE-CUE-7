@@ -1,13 +1,14 @@
 var first = Number(prompt("Ingrese el primer número"));
-this.isNum(first);
+first = this.isNum(first);
 var secund = Number(prompt("Ingrese el segundo número"));
-this.isNum(secund);
+secund = this.isNum(secund);
 first == secund ? this.msg(1) : first > secund ? this.msg(2) : this.msg(3);
 
 function isNum(num) {
     while (!Number.isInteger(num)) {
         num = Number(prompt("Reingrese el número"));
     }
+    return num;
 }
 
 function msg(option) {
