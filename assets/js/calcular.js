@@ -13,8 +13,7 @@ function isNum(num) {
 function msg(option) {
     switch (option) {
         case 1:
-            alert("Los números son iguales "+ "1er número: " + first + " 2do número: " + secund);
-            console.log("=") 
+            alert("El 1er número: " + first + " es igual al 2do número: " + secund);
             break;
         case 2:
             alert("1er número: " + first + " es mayor que el 2do número: " + secund);
@@ -22,5 +21,5 @@ function msg(option) {
         case 3:
             alert("2do número: " + secund + " es mayor que el 1er número: " + first);
             break;
-    }
+    }    
 }
